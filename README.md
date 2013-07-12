@@ -2,13 +2,14 @@
 MPCLApplication is a simple framework that makes bootstrapping command line applications on OS X a one-liner and just
 as easy as bootstrapping an AppKit or UIKit application. Here's how your main.m will look like:
 
-    int main(int argc, char *argv[])
-    {
-        @autoreleasepool {
-            return MPCLApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
-        }
+```objc
+int main(int argc, char *argv[])
+{
+    @autoreleasepool {
+        return MPCLApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
-
+}
+```
 
 All that's left to do is to implement your AppDelegate, like you would with any AppKit or UIKit application.
 
