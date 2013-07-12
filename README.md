@@ -9,7 +9,7 @@ as easy as bootstrapping an AppKit or UIKit application. Here's how your main.m 
 All that's left to do is to implement your AppDelegate, like you would with any AppKit or UIKit application.
 
 # How To Get Started
-1. Download MPCLApplication.
+1. [Download MPCLApplication](https://github.com/matthiasplappert/MPCLApplication/archive/master.zip).
 2. Add MPCLApplication.h and MPCLApplication.m to your project.
 3. Implement MPCLApplicationMain as shown above.
 4. Implement your AppDelegate.
